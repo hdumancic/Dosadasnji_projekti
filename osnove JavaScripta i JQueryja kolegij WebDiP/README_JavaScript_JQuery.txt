@@ -1,0 +1,2 @@
+Unutar ovoga projekta se nalazi izradena staticka web stranica koristeci HTML s nadodanim mogucnostima na korisnickoj strani, prema uputama napisanima u PDF datoteci JavaScript-Jqeury.
+Nalaze se nove datoteke u kojima je prezentirano koristenje JavaScripta te Jqueryja, ali takoder u malom dijelu AJAX-a te JSON-a.
