@@ -1,0 +1,322 @@
+header, srediste, footer{
+    clear: both;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*  ZAGLAVLJE - HEADER  */
+
+/*  ZAGLAVLJE ZAJEDNICKO  */
+
+.zaglavlje{
+    height: 120px;
+    background-color: #183028;
+    background-image: url('multimedija/packers.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position-x: 3%;
+}
+.naslovZaglavlja{
+    text-align: center;
+    margin: 0%;
+    font-size: 200%;
+    color: #f2b632;
+    width: 90%;
+    display: inline-block;
+}
+.tekstZaglavlja{
+    padding-right: 1%;
+    padding-top: 1%;
+    color: #f2b632;
+    width: 8%;
+    display: inline-block;
+}
+
+
+.zaglavljePrijava{
+    color: #f2b632;
+}
+.zaglavljePrijava:hover{
+    color: white;
+}
+
+/*  NAVIGACIJA U BODYJU  */
+/* NAVIGACIJA ZAJEDNICKO */
+
+.srediste{
+    background-color: #f2b632;
+}
+h3.navigacijaNaslov{
+    padding-left: 9%;
+}
+.navigacijaIzbor{
+    color : #183028;
+}
+.navigacijaIzbor:hover{
+    color: white;
+}
+
+.navigacija{
+    padding: 1%;
+    width: 19%;
+    float: left;
+    background-color: #f2b632;
+}
+
+
+
+/*  SADRZAJ U BODYJU */
+
+/*  SADRZAJ POCETNA STRANICA */
+
+#sadrzajPocetna{
+    padding: 2%;
+    overflow-y: scroll;
+    height: 70vh;
+    background-color: #ffdb4d;
+    color: #183028;
+}
+
+#sadrzajDijagram, #sadrzajEra{
+    padding: 2%;
+    overflow-y: hidden;
+    height: 70vh;
+    background-color: #ffdb4d;
+    color: #183028;
+    text-align: center;
+}
+
+
+.naslov{
+    text-align: center;
+    margin: 0;
+    color: #183028;
+    background-color: #ffdb4d;
+    color: #183028;
+}
+
+div.osobnaSlika{
+    float: right;
+}
+div.svrhaStranice{
+    clear: both;
+    text-align: justify;
+}
+
+/* SADRZAJ - GALERIJA */
+
+#sadrzajGalerija{
+    padding: 2%;
+    overflow-y: scroll;
+    height: 90vh;
+    background-color: #ffdb4d;
+    color: #183028;
+}
+.parentSlika img{
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.parentSlika{
+    margin: 0;
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    padding: 10px 0px;
+}
+.parentSlika:hover{
+    transform: scale(1.1);
+}
+.parentSlika:hover .childSlika{
+    color:transparent;
+}
+
+.videoYTGalerija{
+    clear: both;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+/* SADRZAJ PRIJAVA I REGISTRACIJA */
+
+#sadrzajPrijavaRegistracija{
+    padding: 2%;
+    overflow-y: scroll;
+    height: 70vh;
+    background-color: #ffdb4d;
+    color: #183028;
+}
+#sadrzajPrijavaRegistracija div{
+    border-style: solid;
+    border-color: #183028;
+    padding: 10px;
+    margin: 2% 20%;
+    background-color: #f2b632;
+    text-align: center;
+}
+
+.sadrzajRegistracija{
+    border-radius: 15px;
+}
+
+form{
+    margin: 2px;
+}
+
+#razmakPrijavaRegistracija{
+    height: 200px;
+}
+#buttonSadrzajPrijava{
+    color: black;
+    text-decoration: none;
+}
+.registracijaBreak
+{
+    margin-top: 1%;
+}
+prijavaBreak{
+    margin-top: 1%;
+}
+
+.registracijaBreakMobile{
+    display: none;
+}
+
+
+/* SADRZAJ OBRAZAC*/
+
+#sredisteObrazac{
+    padding: 2%;
+    overflow-y: scroll;
+    height: 70vh;
+    background-color: #ffdb4d;
+    color: #183028;
+}
+
+legend{
+    text-align: center;
+}
+
+#sadrzajObrazac{
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #183028;
+    padding: 10px;
+    margin: 2% 20%;
+    background-color: #f2b632;
+    text-align: center;
+}
+
+#odabraniKlubOpis{
+        width: 80%;
+        height: 20%;
+    }
+.okvirObrasca{
+    border-width: 5px;
+    border-color: #183028;
+    margin: auto;
+}
+
+#odabirNajdrazegIgracaLabel, #odabirNajdrazegIgraca{
+    display: none;
+}
+
+#razmakObrazac{
+    height: 20px;
+}
+
+.obrazacBreak
+{
+    margin-top: 1%;
+}
+
+.obrazacBreakMobile{
+    display: none;
+}
+
+/* SADRZAJ TABLICA */
+
+table.tablica, td{
+    border: 1px solid black;
+}
+
+td{
+    padding: 5px 0px;
+}
+
+tr:nth-child(even){
+    background-color: #f2b632;
+}
+
+tr.tablicaZaglavlje td{
+    height: 10px;
+    padding: 2px;
+}
+
+#sadrzajTablica{
+    text-align: center;
+    padding: 2%;
+    overflow-y: scroll;
+    height: 70vh;
+    background-color: #ffdb4d;
+    color: #183028;
+}
+
+#razmakIznadStranice{
+    height: 10%;
+}
+
+#prozorStranice
+{
+    width: 50%;
+    height: 100%;
+    margin: 2%;
+}
+
+.tablicaZaglavlje{
+    background-color: #183028;
+    color: #ffdb4d;
+}
+
+caption.tablica{
+    padding: 5px;
+    background-color: navajowhite;
+    color: #183028;
+}
+table.tablica{
+    margin: auto;
+}
+
+.tablicaPodaci:hover{
+    background-color: #183028;
+    color: #ffdb4d;
+}
+
+
+/* PODNOZJE - FOOTER */
+
+.podnozje{
+    padding-left: 2%;
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+    background-image: url('multimedija/packers.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position-x: 97%;
+    color: #f2b632;
+    background-color: #183028;
+}
+.adresa{
+    color: #f2b632;
+}
+.adresa:hover{
+    color: white;
+}
+.validacijskiLink:hover{
+    background-color: #f2b632;
+}
+
