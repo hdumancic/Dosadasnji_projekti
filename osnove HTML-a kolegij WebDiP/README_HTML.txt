@@ -1,0 +1,1 @@
+Unutar ovoga projekta se nalazi izradena staticka web stranica koristeci HTML, prema uputama napisanima u PDF datoteci Osnove_HTMLa.
