@@ -1,0 +1,284 @@
+/*  OMOGUCAVANJE MOBILNE VERZIJE    */
+
+@media screen and (max-width: 480px){
+    
+/* MOBILNA VERZIJA ZAJEDNICKO */
+    .zaglavlje{
+        background-size: 50px;
+        margin: 0;
+        padding: 0;
+    }
+    .naslovZaglavlja{
+        width: 88%;
+    }
+    div.naslovZaglavlja h3{
+        margin: 0;
+        width: 80%;
+        display: inline-block;
+    }
+    .tekstZaglavlja{
+        color: #f2b632;
+        width: 5%;
+        display: inline-block;
+    }
+    .srediste{
+        clear: both;
+        width: 100%;
+    }
+    
+    .navigacija{
+        clear: both;
+        width: 100%;
+        height: 50%;
+        padding: 0;
+    }
+    
+/* MOBILNA VERZIJA POCEZNE STRANICE */
+        
+        #sadrzajPocetna{
+            clear: both;
+        }
+        
+        div.osobnaSlika{
+            float: none;
+            text-align: center;
+        }
+        
+/* MOBILNA VERZIJA GALERIJE */
+        #sadrzajGalerija{
+            clear: both;
+            display: table-cell;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .parentSlika img{
+            width: 150px;
+            height: auto;
+        }
+
+        .parentSlika{
+            margin: 0;
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+            padding: 10px 0px;
+        }
+        
+        .videoYTGalerija .iframeYT{
+            width: 200px;
+            height: auto;
+        }
+    
+/* MOBILNA VERZIJA PRIJAVE I REGISTRACIJA */
+
+    
+    #sadrzajPrijava, #sadrzajRegistracija{
+        margin: 2%;
+    }
+    .registracijaBreakMobile{
+        display: inline;
+    }
+    
+    prijavaBreakMobile{
+        display: inline;
+    }
+    
+    #registracijaEmail{
+        width: 90%;
+    }
+/* MOBILNA VERZIJA OBRASCA */
+
+    
+    #sadrzajObrazac{
+        margin: 2%;
+        width: 90%;
+    }
+    
+    #prozorStranice
+    {
+        width: 90%;
+        height: 100%;
+        margin: 2%;
+    }
+    
+    
+    #odabraniKlubOpis{
+        width: 100%;
+        height: 20%;
+    }
+    #odabirNajdrazegIgracaLabel, #odabirNajdrazegIgraca{
+        display: inline;
+    }
+    .obrazacBreakMobile{
+        display: inline;
+    }
+    .okvirObrasca{
+        width: 90%;
+        border-width: 2px;
+        border-color: #183028;
+    }
+    
+/* MOBILNA VERZIJA TABLICA*/
+ 
+    #sadrzajTablica{
+    overflow-y: scroll;
+    }
+    table.tablica{
+        width: 50%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    td:nth-of-type(4) {
+        display: none;
+    }
+    td:nth-of-type(5) {
+        display: none;
+    }
+    td:nth-of-type(6) {
+        display: none;
+    }
+    td:nth-of-type(7) {
+        display: none;
+    }
+    td:nth-of-type(8) {
+        display: none;
+    }
+    td:nth-of-type(9) {
+        display: none;
+    }
+    td:nth-of-type(10) {
+        display: none;
+    }   
+}
+
+@media screen and (min-width: 480px) and (max-width: 930px){
+    
+/* MOBILNA VERZIJA ZAJEDNICKO */
+    .zaglavlje{
+        background-size: 50px;
+        margin: 0;
+        padding: 0;
+    }
+    .naslovZaglavlja{
+        width: 88%;
+    }
+    div.naslovZaglavlja h3{
+        margin: 0;
+        width: 80%;
+        display: inline-block;
+    }
+    .tekstZaglavlja{
+        color: #f2b632;
+        width: 5%;
+        display: inline-block;
+    }
+    .srediste{
+        clear: both;
+        width: 100%;
+    }
+    
+    .navigacija{
+        clear: both;
+        width: 100%;
+        height: 50%;
+        padding: 0;
+    }
+    
+/* MOBILNA VERZIJA POCEZNE STRANICE */
+        
+        #sadrzajPocetna{
+            clear: both;
+        }
+        
+        div.osobnaSlika{
+            float: none;
+            text-align: center;
+        }
+        
+/* MOBILNA VERZIJA GALERIJE */
+        
+        .parentSlika img{
+            width: 100px;
+            height: auto;
+        }
+
+        .parentSlika{
+            margin: auto;
+            display: inline-block;
+            width: 30%;
+            text-align: center;
+            padding: 10px 0px;
+        }
+        
+        .videoYTGalerija .iframeYT{
+            width: 200px;
+            height: auto;
+        }
+    
+/* MOBILNA VERZIJA PRIJAVE I REGISTRACIJA */
+
+    
+    #sadrzajPrijava, #sadrzajRegistracija{
+        margin: 2%;
+    }
+    .registracijaBreakMobile{
+        display: inline;
+    }
+    
+    prijavaBreakMobile{
+        display: inline;
+    }
+    
+/* MOBILNA VERZIJA OBRASCA */
+
+    
+    #sadrzajObrazac{
+        margin: 2%;
+        width: 90%;
+    }
+    
+    #prozorStranice
+    {
+        width: 90%;
+        height: 100%;
+        margin: 2%;
+    }
+    
+    #odabraniKlubOpis{
+        width: 100%;
+        height: 20%;
+    }
+    .obrazacBreakMobile{
+        display: inline;
+    }
+    .okvirObrasca{
+        width: 90%;
+        border-width: 2px;
+        border-color: #183028;
+    }
+    
+/* MOBILNA VERZIJA TABLICA*/
+ 
+    #sadrzajTablica{
+    overflow-y: scroll;
+    }
+    table.tablica{
+        width: 50%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    
+    td:nth-of-type(7) {
+        display: none;
+    }
+    td:nth-of-type(8) {
+        display: none;
+    }
+    td:nth-of-type(9) {
+        display: none;
+    }
+    td:nth-of-type(10) {
+        display: none;
+    }   
+}
