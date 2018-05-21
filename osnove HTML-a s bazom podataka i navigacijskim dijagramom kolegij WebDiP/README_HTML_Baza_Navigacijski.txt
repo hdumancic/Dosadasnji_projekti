@@ -1,0 +1,2 @@
+Unutar ovoga projekta se nalazi izradena staticka web stranica koristeci HTML, prema uputama napisanima u PDF datoteci HTML_BazaPodataka_NavigacijskiDijagram.
+Takoder, u odnosu na prvi projekt, prosirene su funkcionalnosti s dodanim stranicama koje prikazuju strukturu baze podataka (Workbench), cija se datoteka takoder moze naci u prezentiranim podacima, te navigacijski dijagram sa svojom XML datotekom.
