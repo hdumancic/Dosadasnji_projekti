@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Galerija - Green Bay</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Hrvoje Dumančić">
+        <meta name="naslov" content="zadaca01">
+        <meta name="zadnja_izmjena" content="18-3-2018">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/hdumancic.css" rel="stylesheet" type="text/css">
+        <link href="css/hdumancic_prilagodbe.css" rel="stylesheet" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.16/datatables.min.css"/>
+        <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.16/datatables.min.js"></script>
+    </head>
+    <body>
+        <header id="headerGalerija"> 
+            <div class="zaglavlje">
+                <div class="naslovZaglavlja"><h3>Green Bay Packers</h3></div>
+                <div class="tekstZaglavlja" dir="rtl">
+                    .2018 .Ožujak 18<br>
+                    20:00<br>
+                    <a href="prijavaRegistracija.html#sadrzajPrijava" class="zaglavljePrijava">Prijava</a>
+                </div>
+            </div>
+        </header>
+        <div class="srediste">
+            <aside class="navigacija" id="navigacijaGalerija">
+                <h3 class="navigacijaNaslov">Navigacija</h3>
+                    <nav class="navigacijaIzbornik">
+                        <ol type="1">
+                            <li> <a href="index.html" class="navigacijaIzbor">Početna stranica</a></li>
+                            <li> <a href="galerija.html" class="navigacijaIzbor">Galerija</a></li>
+                            <li> <a href="prijavaRegistracija.html#sadrzajPrijava" class="navigacijaIzbor">Prijava</a></li>
+                            <li> <a href="prijavaRegistracija.html#sadrzajRegistracija" class="navigacijaIzbor">Registracija</a></li>
+                            <li><a href="obrazac.html" class="navigacijaIzbor">Obrazac</a></li>
+                            <li> <a href="tablica.html" class="navigacijaIzbor">Tablica</a></li>
+                            <li> <a href="navigacijski.html" class="navigacijaIzbor">Navigacijski dijagram</a></li>
+                            <li> <a href="era.html" class="navigacijaIzbor">ERA dijagram</a></li>
+                        </ol>
+                    </nav>
+            </aside>
+            <h1 class="naslov" id="naslovGalerija">Galerija</h1>
+            <div id="sadrzajGalerija">
+                    
+                        <figure class="parentSlika" id="slika1">
+                            <img src="multimedija/rodgers.png" alt="slika" class="slike" id="prvaSlika">
+                            <figcaption class="childSlika">Aaron Rodgers</figcaption>
+                        </figure>
+                        <figure class="parentSlika" id="slika2">
+                            <img src="multimedija/hundley.png" alt="slika" class="slike" id="drugaSlika">
+                            <figcaption class="childSlika">Brett Hundley</figcaption>
+                        </figure>
+                        <figure class="parentSlika" id="slika3">
+                            <img src="multimedija/matthews.png" alt="slika" class="slike" id="trecaSlika">
+                            <figcaption class="childSlika">Clay Matthews</figcaption>
+                        </figure>
+                        <div id="ubacenaSlika">
+                        </div>
+                        <figure class="parentSlika" id="slika4">
+                            <img src="multimedija/clinton.png" alt="slika" class="slike" id="cetvrtaSlika">
+                            <figcaption class="childSlika">Ha-ha Clinton-Dix</figcaption>
+                        </figure>
+                        <figure class="parentSlika" id="slika5">
+                            <img src="multimedija/clark.png" alt="slika" class="slike" id="petaSlika">
+                            <figcaption class="childSlika">Kenny Clark</figcaption>
+                        </figure>
+                        <figure class="parentSlika" id="slika6">
+                            <img src="multimedija/callahan.png" alt="slika" class="slike" id="sestaSlika">
+                            <figcaption class="childSlika">Joe Callahan</figcaption>
+                        </figure>
+                        <figure class="parentSlika" id="slika7">
+                            <img src="multimedija/brice.png" alt="slika" class="slike" id="sedmaSlika">
+                            <figcaption class="childSlika">Krentrell Brice</figcaption>
+                        </figure>
+                        <figure class="parentSlika" id="slika8">
+                            <img src="multimedija/goodwell.png" alt="slika" class="slike" id="osmaSlika">
+                            <figcaption class="childSlika">Matthew Goodwell</figcaption>
+                        </figure>
+                        <figure class="parentSlika" id="slika9">
+                            <img src="multimedija/jjones.png" alt="slika" class="slike" id="devetaSlika">
+                            <figcaption class="childSlika">Josh Jones</figcaption>
+                        </figure>
+                        <figure class="parentSlika" id="slika10">
+                            <img src="multimedija/ajones.png" alt="slika" class="slike" id="desetaSlika">
+                            <figcaption class="childSlika">Aaron Jones</figcaption>
+                        </figure>
+                        <figure class="parentSlika" id="slika11">
+                            <img src="multimedija/cobb.png" alt="slika" class="slike" id="jedanaestaSlika">
+                            <figcaption class="childSlika">Randall Cobb</figcaption>
+                        </figure>
+                        <figure class="parentSlika" id="slika12">
+                            <img src="multimedija/whitehead.png" alt="slika" class="slike" id="dvanaestaSlika">
+                            <figcaption class="childSlika">Jermaine Whitehead</figcaption>
+                        </figure>
+                    <div></div>
+                    <div>
+                       <div class="videoYTGalerija">
+                           <iframe class="iframeYT" width="560" height="315" src="https://www.youtube.com/embed/uAugYexvK_s" allowfullscreen></iframe>
+                           <div>Potencijalni novi igrači u 2018. godini</div>
+                       </div>
+                    
+                       <div class="videoYTGalerija">
+                           <iframe class="iframeYT" width="560" height="315" src="https://www.youtube.com/embed/5a6GdUlIRMo" allowfullscreen></iframe>
+                           <div>Razmjena Damariousa Randella</div>
+                       </div>
+                    
+                       <div class="videoYTGalerija">
+                           <iframe class="iframeYT" width="560" height="315" src="https://www.youtube.com/embed/GqjXkW9mZCE" allowfullscreen></iframe>
+                           <div>Potencijalni igrači za kupovinu preko ljeta</div>
+                       </div>
+                    
+                       <div class="videoYTGalerija">
+                           <iframe class="iframeYT" width="560" height="315" src="https://www.youtube.com/embed/wkvRyIPV2CY" allowfullscreen></iframe>
+                           <div>Ostavka direktora Green Bay Packersa</div>
+                       </div>
+                       
+                       <div class="videoYTGalerija">
+                           <iframe class="iframeYT" width="560" height="315" src="https://www.youtube.com/embed/jihfiF3USOQ" allowfullscreen></iframe>
+                           <div>Green Bay Packers VS Carolina Panthers komentar utakmice</div>
+                       </div>
+                    </div>
+            </div>
+        </div>
+        <footer class="podnozje"  id="footerGalerija">
+            Vrijeme potrebno za izradu: 20h<br><br>
+            <a href="https://validator.w3.org/check?uri=http://barka.foi.hr/WebDiP/2017/zadaca_03/hdumancic/galerija.html" title="HTML 5 validacija">
+                <img src="multimedija/HTML5.png" alt="validacijaHTML5" height="55" width="50" class="validacijskiLink"/></a>
+            <a href="https://jigsaw.w3.org/css-validator/validator?uri=http://webdip.barka.foi.hr/2017/zadaca_03/hdumancic/hdumancic.css" title="CSS 3 validacija">
+                <img src="multimedija/CSS3.png" alt="validacijaCSS3" height="55" width="55" class="validacijskiLink"/></a>
+        </footer>
+        <script src="js/hdumancic_jquery.js"></script>
+    </body>
+</html>

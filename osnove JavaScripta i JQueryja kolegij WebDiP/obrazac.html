@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Obrazac - Green Bay</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Hrvoje Dumančić">
+        <meta name="naslov" content="zadaca01">
+        <meta name="zadnja_izmjena" content="18-3-2018">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/hdumancic.css" rel="stylesheet" type="text/css">
+        <link href="css/hdumancic_prilagodbe.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <header>
+            <div class="zaglavlje">
+                <div class="naslovZaglavlja"><h3>Green Bay Packers</h3></div>
+                <div class="tekstZaglavlja" dir="rtl">
+                        .2018 .Ožujak 18<br>
+                        20:00<br>
+                    <a href="prijavaRegistracija.html#sadrzajPrijava" class="zaglavljePrijava">Prijava</a>
+                </div>
+
+            </div>
+            
+        </header>
+        <div class="srediste">
+            <aside class="navigacija">
+                <h3 class="navigacijaNaslov">Navigacija</h3>
+                    <nav class="navigacijaIzbornik">
+                        <ol type="1">
+                            <li> <a href="index.html" class="navigacijaIzbor">Početna stranica</a></li>
+                            <li> <a href="galerija.html" class="navigacijaIzbor">Galerija</a></li>
+                            <li> <a href="prijavaRegistracija.html#sadrzajPrijava" class="navigacijaIzbor">Prijava</a></li>
+                            <li> <a href="prijavaRegistracija.html#sadrzajRegistracija" class="navigacijaIzbor">Registracija</a></li>
+                            <li><a href="obrazac.html" class="navigacijaIzbor">Obrazac</a></li>
+                            <li> <a href="tablica.html" class="navigacijaIzbor">Tablica</a></li>
+                            <li> <a href="navigacijski.html" class="navigacijaIzbor">Navigacijski dijagram</a></li>
+                            <li> <a href="era.html" class="navigacijaIzbor">ERA dijagram</a></li>
+                        </ol>
+                    </nav>
+            </aside>
+            <h1 class="naslov">Obrazac</h1>
+                <div id="sredisteObrazac">
+                    <div id="sadrzajObrazac">
+                        <h2>Ispunjavanje obrasca</h2>
+                            <form id="formObrazac" enctype="multipart/form-data" method="get" action="http://barka.foi.hr/WebDiP/2017/materijali/zadace/ispis_forme.php">
+                                
+                                    <fieldset class="okvirObrasca">
+                                    <legend>Odabir tima</legend>
+                                        <input type="file" name="odaberiDatoteku" >Odaberite datoteku<br class="obrazacBreak">
+                                        <input list="odabraniKlub" placeholder="Odaberite klub" name="odabraniKlub" id="odabraniKlubIzbor">
+                                        <datalist id="odabraniKlub">
+-                                           <option value="Green Bay Packers">
+                                            <option value="San Francisco 49ers">
+                                            <option value="Seattle Seahawks">
+                                            <option value="Miami Dolphins">
+                                            <option value="Buffalo Bills">
+                                            <option value="Minnesota Vikings">
+                                        </datalist>
+                                        <br class="obrazacBreakMobile">
+                                        <label for="odabraniKlubIzbor"> Odaberite klub</label><br class="obrazacBreak">
+                                        
+                                        <textarea id="odabraniKlubOpis" name="odabraniKlubOpis" rows="40" cols="60" maxlength="580" placeholder="Green Bay Packersi su američki nogometni tim iz grada Green Bay, u sjevernoj saveznoj državi Wisconsin."></textarea><br class="obrazacBreak">
+                                        <label for="odabraniKlubOpis"> Opišite klub</label><br class="obrazacBreak">
+                                    
+                                    </fieldset>
+                                    <div id="razmakObrazac"></div>
+                                    <fieldset class="okvirObrasca">
+                                    <legend>Upis osobnih podataka</legend>
+                                    
+                                        <input id="datumOdabira" name="datumOdabira" ><br class="obrazacBreakMobile">
+                                        <label for="datumOdabira"> Odaberite datum</label><br class="obrazacBreak">
+                                        <input type="time" id="vrijemeOdabira" name="vrijemeOdabira" ><br class="obrazacBreakMobile">
+                                        <label for="vrijemeOdabira">Odaberite vrijeme</label><br class="obrazacBreak">
+                                        
+                                        <input type="number" id="odabraniBroj" name="odabraniBroj" min="1" max="99"><br class="obrazacBreakMobile">
+                                        <label for="odabraniBroj">Odaberite broj dresa (1-99) </label><br class="obrazacBreak">
+                                        
+                                        
+                                        <div id="dodajKlizac">
+                                            <label for="odabirVisine" id="odabirVisineLabel1">Odaberite visinu: 150cm</label><br class="obrazacBreakMobile">
+                                            <input type="range" id="odabirVisine" name="odabirVisine" ><br class="obrazacBreakMobile">
+                                            <label for="odabirVisine" id="odabirVisineLabel2"> 210cm</label><br class="obrazacBreak">
+                                        </div>
+                                        
+                                        
+                                        <select id="odabirVrsteIgre" name="odabirVrsteIgre" multiple>
+                                            <option selected value="napad">Napad</option>
+                                            <option value="obrana">Obrana</option>
+                                            <option value="specijalni_tim">Specijalni tim</option>
+                                            <option value="sve_opcije">Sve opcije</option>
+                                        </select><br class="obrazacBreakMobile">
+                                        <label for="odabirVrsteIgre">Odabir vrste igre</label><br class="obrazacBreak">
+
+                                        <select id="odabirPozicijeIgre" name="odabirPozicijeIgre">
+                                            <optgroup label="Napad"></optgroup>
+                                            <option value="quarterback">Proigravač</option>
+                                            <option value="wide_receiver">Hvatač</option>
+                                            <option value="bloker">Bloker</option>
+
+                                            <optgroup label="Obrana"></optgroup>
+                                            <option value="branic" selected>Branič</option>
+                                            <option value="drzac">Držač</option>
+                                            <option value="specijalni_tim">Specijalni tim</option>
+
+                                            <optgroup label="Specijalni tim"></optgroup>
+                                            <option value="drzac">Držač</option>
+                                            <option value="specijalni_tim">Specijalni tim</option>
+                                            <option value="sve_opcije">Udarač</option>
+
+                                            <optgroup label="Udarač"></optgroup>
+                                            <option value="dodatni_bod">Dodatni bod</option>
+                                            <option value="ispucavanje">Ispucavanje</option>
+                                        </select><br class="obrazacBreakMobile">
+                                        <label for="odabirPozicijeIgre">Odabir pozicije igre</label><br class="obrazacBreak">
+                                            
+                                        <select id="odabirNajdrazegIgraca" name="odabirNajdrazegIgraca">
+                                                <option value="rodgers">Aaron Rodgers</option>
+                                                <option value="brady">Tom Brady</option>
+                                                <option value="clinton">Ha-ha Clinton Dix</option>
+                                                <option value="lynch">Marshawn Lynch</option>
+                                                <option value="nelson">Jordie Nelson</option>
+                                        </select><br class="obrazacBreakMobile">
+                                        <label id="odabirNajdrazegIgracaLabel" for="odabirNajdrazegIgraca">Odabir najdražeg igrača</label><br class="obrazacBreak">
+                                        
+                                        <input type="submit" value="Pošalji">
+                                    </fieldset>
+                                
+                            </form>
+                    </div>
+                </div>
+        </div>
+        <footer class="podnozje">
+            Vrijeme potrebno za izradu: 20h<br><br>
+            <a href="https://validator.w3.org/check?uri=http://barka.foi.hr/WebDiP/2017/zadaca_03/hdumancic/obrazac.html" title="HTML 5 validacija">
+                <img src="multimedija/HTML5.png" alt="validacijaHTML5" height="55" width="50" class="validacijskiLink"/></a>
+            <a href="https://jigsaw.w3.org/css-validator/validator?uri=http://webdip.barka.foi.hr/2017/zadaca_03/hdumancic/hdumancic.css" title="CSS 3 validacija">
+                <img src="multimedija/CSS3.png" alt="validacijaCSS3" height="55" width="55" class="validacijskiLink"/></a>
+            
+        </footer>
+    <script src="js/hdumancic.js"></script>
+    </body>
+</html>
